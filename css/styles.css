@@ -1,0 +1,85 @@
+:root{
+    --color-primary:#2EB872;
+    --color-primary-hover:#41d58b;
+    --color-light:#f8f9fa;
+    --color-dark:#343a40;
+    --color-black:#192021;
+}
+/*generales*/
+.subtitle{
+    color: var(--color-primary);
+}
+.btn-custom{
+    background-color: var(--color-primary);
+    color:var(--color-light) ;
+    transition: all .5s;
+}
+
+
+.btn-custom:hover{
+    background-color: var(--color-primary-hover);
+    color: var(--color-light);
+}
+
+/*Header*/
+.carousel-item img{
+    max-height: 90vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(0,0,0,.6);
+    backdrop-filter: blur(5px);
+}
+
+.carousel{
+    margin-bottom: 20px;
+}
+
+/*Banner*/
+.banner{
+    background-color: #343a40;
+    width: 100%;
+    background-image: linear-gradient(to left, rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../img/wolves_banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Green Container*/
+.green-container{
+    background-color: var(--color-primary);
+}
+
+/*Contact Container*/
+.contact-container{
+    width: 100%;
+    background-image: linear-gradient(to left,rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../img/tiger_banner-min.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+/*Footer*/
+.footer-header{
+    background-color: var(--color-dark);
+}
+.footer-bottom{
+    background-color: var(--color-black);
+}
+
+.btn-mi-boton{
+    color:rgb(25, 124, 218);
+    border-radius: 5%;
+    border-color: rgb(25, 124, 218);
+    transition: all .5s;
+}
+
+
+.btn-mi-boton:hover{
+    background-color: rgb(25, 124, 218);
+    color: var(--color-light);
+}
